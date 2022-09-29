@@ -49,12 +49,13 @@ public class Node<N> {
     @Override
     public String toString() {
         //toString method for the Node class
-        String str = "Data: " + data;
+        String str = "" + data;
         return str;
     }
     //.equals method
-    public boolean equals(Node<N> node) {
-        //returns whether data of Node equals to the other when you use .equals
-        return data.equals(node.data);
+    public boolean equals(Node n1) {
+        //checks to see if one node is equal to the other
+        //returns true if equal, false otherwise
+        return(data == n1.getData());
     }
 }
