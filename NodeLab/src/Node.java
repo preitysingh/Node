@@ -21,15 +21,15 @@ public class Node<N> {
 
     //mutator/setter methods
     public void setParent(Node<N> parent){
-        this.parent = parent; //
+        this.parent = parent; //reads in parent varible
     }
 
     public void setChild(Node<N> child) {
-        this.child = child; //
+        this.child = child; //reads in child variable
     }
 
     public void setData(N data) {
-        this.data = data; //
+        this.data = data; //reads in data variable
     }
 
     //accessor methods
